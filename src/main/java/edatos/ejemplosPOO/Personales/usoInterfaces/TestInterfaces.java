@@ -1,8 +1,8 @@
 
-package edatos.ejemplosPOO.usoInterfaces;
+package edatos.ejemplosPOO.Personales.usoInterfaces;
 
-import edatos.ejemplosPOO.interfaces.Caminante;
-import edatos.ejemplosPOO.interfaces.Trabajador;
+import edatos.ejemplosPOO.Personales.interfaces.Caminante;
+import edatos.ejemplosPOO.Personales.interfaces.Trabajador;
 
 /**
  * Adaptación de la clase de ejemplo POO publicada por el Prof. Claudio Barua en

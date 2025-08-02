@@ -1,5 +1,9 @@
-package edatos.ejemplosPOO.paq3;
+package edatos.ejemplosPOO.Personales.paq3;
 
+import edatos.ejemplosPOO.Personales.paq1.Circulo;
+import edatos.ejemplosPOO.Personales.paq1.Dibujable;
+import edatos.ejemplosPOO.Personales.paq1.Figura;
+import edatos.ejemplosPOO.Personales.paq2.Cuadrado;
 import edatos.ejemplosPOO.paq1.*;
 import edatos.ejemplosPOO.paq2.*;
 
@@ -28,7 +32,7 @@ public class Prueba {
 
 	public static void main(String[] a) {
 		//Se generan 2 objetos especificos e imprimen en pantalla
-		Circulo  c1 = new Circulo(10);
+		Circulo c1 = new Circulo(10);
 		Cuadrado c2 = new Cuadrado(10);
 
 		procesarFigura(c1);

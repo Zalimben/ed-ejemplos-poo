@@ -1,4 +1,4 @@
-package edatos.ejemplosPOO.interfaces;
+package edatos.ejemplosPOO.Personales.interfaces;
 
 import java.util.Date;
 

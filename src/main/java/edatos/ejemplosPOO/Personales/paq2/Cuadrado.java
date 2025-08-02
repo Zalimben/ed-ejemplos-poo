@@ -1,5 +1,6 @@
-package edatos.ejemplosPOO.paq2;
+package edatos.ejemplosPOO.Personales.paq2;
 
+import edatos.ejemplosPOO.Personales.paq1.Figura;
 import edatos.ejemplosPOO.paq1.*;
 
 /**

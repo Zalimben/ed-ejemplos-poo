@@ -1,5 +1,5 @@
 
-package edatos.ejemplosPOO.usoInterfaces;
+package edatos.ejemplosPOO.Personales.usoInterfaces;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

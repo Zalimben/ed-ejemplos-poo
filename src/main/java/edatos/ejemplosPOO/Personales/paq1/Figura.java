@@ -1,4 +1,4 @@
-package edatos.ejemplosPOO.paq1;
+package edatos.ejemplosPOO.Personales.paq1;
 
 /**
  * Adaptación de la clase de ejemplo POO

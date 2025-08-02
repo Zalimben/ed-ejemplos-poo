@@ -1,4 +1,4 @@
-package edatos.ejemplosPOO.interfaces;
+package edatos.ejemplosPOO.Personales.interfaces;
 
 /**
  * Adaptación de la clase de ejemplo POO publicada por el Prof. Claudio Barua en
