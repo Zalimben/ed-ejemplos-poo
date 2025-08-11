@@ -7,6 +7,7 @@ package edatos.ejemplosPOO.Personales.usoInterfaces;
  * Ejemplo de uso de clase Persona
  * 
  * @author dezeta
+ * @author szalimben
  *
  */
 public class TestPersona {

@@ -9,7 +9,7 @@ import edatos.ejemplosPOO.Personales.interfaces.Trabajador;
  * el aula virtual de Est. de Datos, FP-UNA
  * 
  * @author dezeta
- *
+ * @author szalimben
  */
 public class TestInterfaces {
 

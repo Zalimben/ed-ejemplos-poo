@@ -6,17 +6,17 @@ package edatos.ejemplosPOO.Personales.usoInterfaces;
  * el aula virtual de Est. de Datos, FP-UNA
  * 
  * @author dezeta
- *
+ * @author szalimben
  */
-public class EmpHora extends Empleado {
+public class EmpleadoHora extends Empleado {
 	private int salarioHora;
 	private float cantHoras;
 	public static final int TOTAL_HORAS = 192;
 
-	public EmpHora() {
+	public EmpleadoHora() {
 	}
 
-	public EmpHora(int ced, String nom, String ape, byte e, int salarioHora, float cantHoras) {
+	public EmpleadoHora(int ced, String nom, String ape, byte e, int salarioHora, float cantHoras) {
 		super(ced, nom, ape, e, 0);
 		setSalarioHora(salarioHora);
 		setCantHoras(cantHoras);
