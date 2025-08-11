@@ -7,7 +7,7 @@ package edatos.ejemplosPOO.Personales.usoInterfaces;
  * Ejemplo de uso de clase Medicamento
  * 
  * @author dezeta
- *
+ * @author szalimben
  */
 public class TestMedicamento {
 	public static void main(String[] args) {

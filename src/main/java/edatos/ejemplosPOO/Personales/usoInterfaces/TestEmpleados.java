@@ -9,7 +9,7 @@ import java.util.Scanner;
  * el aula virtual de Est. de Datos, FP-UNA
  * 
  * @author dezeta
- *
+ * @author szalimben
  */
 public class TestEmpleados {
 
@@ -28,7 +28,7 @@ public class TestEmpleados {
 
 		emps[0] = new Jefe(1234567, "Juan", "Vera", (byte) 30, 3000000);
 		emps[1] = new Vendedor(456456, "Luisa", "Cantero", (byte) 32, 1500000, 50000000, 2.75f);
-		emps[2] = new EmpHora(412312, "Carlos", "Aquino", (byte) 22, 30000, 159);
+		emps[2] = new EmpleadoHora(412312, "Carlos", "Aquino", (byte) 22, 30000, 159);
 		for (Empleado e : emps) { // for each
 			System.out.println(e.toString());
 			System.out.println("Salario: " + e.calcularSalario());
@@ -55,7 +55,7 @@ public class TestEmpleados {
 			e = new Vendedor(555555, "Angel", "No tal angel", (byte) 34, 1500000, 50000000, 3);
 			break;
 		case 3:
-			e = new EmpHora(444444, "Luisa", "Vera", (byte) 30, 18000, 192);
+			e = new EmpleadoHora(444444, "Luisa", "Vera", (byte) 30, 18000, 192);
 			break;
 		default:
 			System.out.println("Solo numero 1, 2 ó 3");
@@ -87,7 +87,7 @@ public class TestEmpleados {
 			procesar(v);
 			break;
 		case 3:
-			EmpHora e = new EmpHora(444444, "Luisa", "Vera", (byte) 30, 18000, 192);
+			EmpleadoHora e = new EmpleadoHora(444444, "Luisa", "Vera", (byte) 30, 18000, 192);
 			procesar(e);
 			break;
 		default:
