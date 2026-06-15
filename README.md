@@ -2,7 +2,7 @@
 
 Este repositorio contiene ejemplos sencillos para ilustrar conceptos de Programación Orientada a Objetos (POO) en Java. El código está organizado en paquetes temáticos con clases e interfaces que muestran herencia, polimorfismo, encapsulamiento y uso de interfaces.
 
-Última actualización: 2025-08-10 20:15
+Última actualización: 2026-06-14
 
 ## Requisitos
 - Java 8 (1.8) o superior
@@ -38,12 +38,12 @@ Esto compila el proyecto y genera las clases en `target/classes`.
 
 Ejecutar la demo de animales:
 ```bash
-java -cp target/classes edatos.ejemplosPOO.Animales.PruebaAnimales
+java -cp target/classes Animales.poo.ejemplos.PruebaAnimales
 ```
 
 Ejecutar la demo de figuras:
 ```bash
-java -cp target/classes edatos.ejemplosPOO.Figuras.Prueba
+java -cp target/classes Figuras.poo.ejemplos.Prueba
 ```
 
 Nota: Si es la primera vez, ejecute antes `mvn package` para compilar.
