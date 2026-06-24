@@ -8,9 +8,10 @@ tres paquetes principales:
 Incluye clases que representan diferentes tipos de animales, demostrando conceptos como herencia,
 polimorfismo y encapsulamiento.
 
-- Ejemplo de clases: `Animales` (clase base), `Perro`, `Gato`, `Lobo`, `Humano`, `Yaguarete`.
-- Interfaces: `Caninos`, `Felinos`, `Taxonomia`.
-- Incluye una clase de prueba: `PruebaAnimales`.
+- Clases: `Animal` (clase base), `Perro`, `Gato`, `Humano`, `Aguila`, `Pato`, `Pez`.
+- Subpaquete `interfaces`:
+  - Interfaces: `Corredor`, `Nadador`, `Volador`.
+- Clase de prueba: `PruebaAnimales`.
 
 ## Paquete `Figuras`
 

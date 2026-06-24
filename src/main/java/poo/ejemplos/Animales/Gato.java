@@ -1,33 +1,38 @@
 package poo.ejemplos.Animales;
 
-import poo.ejemplos.Animales.interfaces.Felinos;
+import poo.ejemplos.Animales.interfaces.Corredor;
 
 /**
- * Clase que representa un gato. Extiende la clase abstracta Animales e implementa la interfaz
- * Felinos.
+ * Clase que representa un gato.
  *
  * @author szalimben
  */
-public class Gato extends Animales implements Felinos {
-
-    private final String nombre;
+public class Gato extends Animal implements Corredor {
 
     public Gato() {
-        this.nombre = "Michi";
-        this.alimento = "Whiskas";
+        super("Michi", "Whiskas", 0);
     }
 
     public Gato(String nombre) {
-        this.nombre = nombre;
-        this.alimento = "Whiskas";
-    }
-
-    @Override
-    public String especie() {
-        return "Felis catus";
+        super(nombre, "Whiskas", 0);
     }
 
     public String getNombre() {
         return this.nombre;
+    }
+
+    @Override
+    public void correr() {
+        System.out.println(nombre + " está corriendo.");
+    }
+
+    @Override
+    public void emitirSonido() {
+        System.out.println("Miau!");
+    }
+
+    @Override
+    public void moverse() {
+        correr();
     }
 }

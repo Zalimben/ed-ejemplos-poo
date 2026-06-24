@@ -1,33 +1,38 @@
 package poo.ejemplos.Animales;
 
-import poo.ejemplos.Animales.interfaces.Taxonomia;
+import poo.ejemplos.Animales.interfaces.Corredor;
 
 /**
- * Clase que representa un humano. Extiende la clase abstracta Animales e implementa la interfaz
- * Taxonomia.
+ * Clase que representa un humano.
  *
  * @author szalimben
  */
-public class Humano extends Animales implements Taxonomia {
-
-    private final String nombre;
+public class Humano extends Animal implements Corredor {
 
     public Humano(String nombre) {
-        this.nombre = nombre;
-        this.alimento = "Todo bicho que camina";
+        super(nombre, "Todo", 0);
     }
 
-    @Override
-    public String familia() {
-        return "Hominidae";
-    }
-
-    @Override
-    public String especie() {
-        return "Homo Sapiens";
+    public Humano(String nombre, String alimento, int edad) {
+        super(nombre, alimento, edad);
     }
 
     public String getNombre() {
         return this.nombre;
+    }
+
+    @Override
+    public void emitirSonido() {
+        System.out.println("Hola mundo!");
+    }
+
+    @Override
+    public void moverse() {
+        System.out.println("Manejar");
+    }
+
+    @Override
+    public void correr() {
+
     }
 }
