@@ -37,7 +37,12 @@ public class PruebaAnimales {
         System.out.println();
 
         // Ejemplo Polimorfismo
-        Animal[] animales = {new Perro("Firulais"), new Aguila("Real"), new Pez("Nemo")};
+        Animal[] animales = {
+                new Perro("Firulais"),
+                new Aguila("Real"),
+                new Pez("Nemo"),
+                new Pato("Donald")
+        };
 
         for (Animal animal : animales) {
             animal.emitirSonido();

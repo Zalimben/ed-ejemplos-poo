@@ -12,6 +12,10 @@ import poo.ejemplos.Animales.interfaces.Volador;
  */
 public class Pato extends Animal implements Volador, Nadador, Corredor {
 
+    public Pato(String nombre) {
+        super(nombre, "insectos", 0);
+    }
+
     public Pato(String nombre, int edad) {
         super(nombre, "", edad);
     }
